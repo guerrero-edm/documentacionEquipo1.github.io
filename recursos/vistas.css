@@ -1,0 +1,66 @@
+section{
+    text-align:center;
+    background-color: rgb(154, 212, 106);
+    padding:10px;
+    border-radius: 1em;
+}
+img.more{
+    width:10%;
+}
+img.tocadiscos{
+    border-radius: 1em;
+    width:15%;
+}
+div.imagen{
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+img.HomePage{
+    width:10%;
+}
+
+#main{
+    background-image: url(../Imagenes/Pan.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    padding:5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h2,h1{
+    text-align:center;
+}
+.container{
+    width:100%;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color:white;
+    font-style:inherit;
+    font-weight: bold;
+    text-align:center;
+    width:100%;
+}
+a>div{
+    padding: 1px;
+    margin: 0px;
+    background-color:rgba(154, 212, 106);
+    border-radius: 1em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}

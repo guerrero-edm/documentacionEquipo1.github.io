@@ -1,0 +1,152 @@
+#encabezado{
+    background-color:rgb(100, 142, 190) ;
+    padding:5%;
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: justify;
+}
+.dentro,a>div{
+    text-align:center;
+}
+img.more{
+    width:10%;
+}
+#rockola{
+    padding:5%;
+    position: relative; 
+    display:grid;
+    justify-content: center;
+    background-image: url(../Imagenes/Panaderia.png);
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+#Imagen{
+    margin-left:auto;
+    margin-right:auto;
+}
+img.rockola{
+    width: 500px;
+}
+img.ElCS{
+    width: 20%;
+}
+#links{
+    display:grid;
+    /*grid-template:repeat(4,1fr)/repeat(2, 1fr);*/
+    grid-template:repeat(4,1fr)/repeat(2, 1fr);
+    grid-gap: 10px;
+    width:180px;
+    background-color: rgba(139, 69, 19, 0);
+    border-radius: 10px;
+}
+#rockola > div{
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 1.5%;
+}
+.box{
+    background-color: #ff7300ec;
+    border-color: black;
+    border-style: solid;
+    border-width:1px;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+a>div{
+    padding-top: 5px; /*se pone el padding para definir un área sensible del botón*/
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    font-style:calibri;
+    font-weight: bold;
+    font-size: auto;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    outline: none;
+    text-decoration: none; 
+}
+a:link {
+    color: #ffffff;
+  }
+  
+  a:visited {
+    color: #1100ff;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #f50000;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #ff0000;
+  }
+  
+  a:active {
+    background: #ff0000;
+    color: #0004f3;
+  }
+
+  #footer {
+    padding:1%;
+    background-color: #3b3bb1ec;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#footer .inner {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+    #footer .inner {
+        width: 75%;
+        }
+}
+
+@media screen and (max-width: 480px) {
+    #footer .inner {
+        width: 90%;
+    }
+}
+
+#footer .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
+    padding: 0;
+    text-align: center;
+}
+@media screen and (max-width: 736px) {
+    #footer {
+        padding: 3em 0 1em 0;
+    }
+}
+ul{
+    display:grid;
+    grid-template:repeat(1,1fr)/repeat(2, 1fr);
+}
+img.logo{
+    width: 100px;
+}
+p{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+footer{
+    color:rgb(120, 200, 240);
+}
